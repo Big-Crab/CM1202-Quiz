@@ -6,6 +6,28 @@
 
 #IncludeRegexTransform: 
 
+../ext/gl3w/GL/gl3w.h
+GL/glcorearb.h
+-
+
+../ext/gl3w/GL/glcorearb.h
+windows.h
+-
+stddef.h
+-
+inttypes.h
+-
+inttypes.h
+-
+inttypes.h
+-
+stdint.h
+-
+stdint.h
+-
+inttypes.h
+-
+
 ../ext/glfw/include/GLFW/glfw3.h
 stddef.h
 -
@@ -50,9 +72,31 @@ GL/glu.h
 vulkan/vulkan.h
 -
 
-E:/repos/CM1202/CLion Proj/main.cpp
+../ext/imgui/imconfig.h
+
+../ext/imgui/imgui.h
+imconfig.h
+../ext/imgui/imconfig.h
+float.h
+-
+stdarg.h
+-
+stddef.h
+-
+string.h
+-
+assert.h
+-
+imgui_user.h
+../ext/imgui/imgui_user.h
+
+C:/Users/Alex/Documents/GitHub/CM1202-Quiz/CLion Proj/main.cpp
 iostream
 -
 GLFW/glfw3.h
-E:/repos/CM1202/CLion Proj/GLFW/glfw3.h
+C:/Users/Alex/Documents/GitHub/CM1202-Quiz/CLion Proj/GLFW/glfw3.h
+imgui.h
+-
+GL/gl3w.h
+C:/Users/Alex/Documents/GitHub/CM1202-Quiz/CLion Proj/GL/gl3w.h
 

@@ -4,13 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/repos/CM1202/CLion Proj/main.cpp" "E:/repos/CM1202/CLion Proj/cmake-build-debug/CMakeFiles/CLion_Proj.dir/main.cpp.obj"
+  "C:/Users/Alex/Documents/GitHub/CM1202-Quiz/CLion Proj/main.cpp" "C:/Users/Alex/Documents/GitHub/CM1202-Quiz/CLion Proj/cmake-build-debug/CMakeFiles/CLion_Proj.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../ext/glfw/include"
+  "../ext/imgui"
+  "../ext/gl3w"
   )
 
 # Targets to which this target links.

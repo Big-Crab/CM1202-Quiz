@@ -1,4 +1,4 @@
-# Install script for directory: E:/repos/CM1202/CLion Proj
+# Install script for directory: C:/Users/Alex/Documents/GitHub/CM1202-Quiz/CLion Proj
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/repos/CM1202/CLion Proj/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Alex/Documents/GitHub/CM1202-Quiz/CLion Proj/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

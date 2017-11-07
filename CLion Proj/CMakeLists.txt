@@ -7,3 +7,5 @@ set(SOURCE_FILES main.cpp)
 add_executable(CLion_Proj ${SOURCE_FILES})
 
 include_directories(ext/glfw/include)
+include_directories(ext/imgui)
+include_directories(ext/gl3w)
