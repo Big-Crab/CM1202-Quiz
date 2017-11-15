@@ -1,0 +1,65 @@
+ARCHITECTURE:
+
+
+Question:
+	arr : answer strings
+	arr : correct answer(s) indices
+	str content
+	image
+	
+	setImage
+	getImage
+	
+	setContent
+	getContent
+	
+	setAnswers
+	getAnswers
+	
+	randomiseAnswerOrder
+
+Theme:
+	arr : question objects
+	getSize
+	
+
+Game Instance:
+	Progress
+	current theme
+	stats
+	
+	security password or pin
+	
+	changeTheme (secure)
+	resetGame
+	
+	openAdminDialogue (secure)
+	
+
+AdminDialogue: (GUI)
+	->Questions
+		-Filter by theme
+		-Search by question content
+		
+		->Edit question
+			-change answers
+			-remove/add answers
+			-change question
+			-delete question
+		->Remove question
+		
+		->Create new question
+			-Input answers (Max 10)
+			-Input question
+			-Identify correct answer
+			-Add to existing theme or create new theme
+	->Themes
+		-Filter by name
+		
+		-> Modify a theme
+			-Add/Remove questions
+			-Change theme name
+		-> Add theme
+			-Add questions
+			-Define name
+		-> Remove theme
