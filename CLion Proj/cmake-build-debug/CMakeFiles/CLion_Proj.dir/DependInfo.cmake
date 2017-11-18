@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Alex/Documents/GitHub/CM1202-Quiz/CLion Proj/imgui_impl_glfw_gl3.cpp" "C:/Users/Alex/Documents/GitHub/CM1202-Quiz/CLion Proj/cmake-build-debug/CMakeFiles/CLion_Proj.dir/imgui_impl_glfw_gl3.cpp.obj"
   "C:/Users/Alex/Documents/GitHub/CM1202-Quiz/CLion Proj/main.cpp" "C:/Users/Alex/Documents/GitHub/CM1202-Quiz/CLion Proj/cmake-build-debug/CMakeFiles/CLion_Proj.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

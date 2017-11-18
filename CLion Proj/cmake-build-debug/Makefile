@@ -122,6 +122,33 @@ CLion_Proj/fast:
 	$(MAKE) -f CMakeFiles\CLion_Proj.dir\build.make CMakeFiles/CLion_Proj.dir/build
 .PHONY : CLion_Proj/fast
 
+imgui_impl_glfw_gl3.obj: imgui_impl_glfw_gl3.cpp.obj
+
+.PHONY : imgui_impl_glfw_gl3.obj
+
+# target to build an object file
+imgui_impl_glfw_gl3.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLion_Proj.dir\build.make CMakeFiles/CLion_Proj.dir/imgui_impl_glfw_gl3.cpp.obj
+.PHONY : imgui_impl_glfw_gl3.cpp.obj
+
+imgui_impl_glfw_gl3.i: imgui_impl_glfw_gl3.cpp.i
+
+.PHONY : imgui_impl_glfw_gl3.i
+
+# target to preprocess a source file
+imgui_impl_glfw_gl3.cpp.i:
+	$(MAKE) -f CMakeFiles\CLion_Proj.dir\build.make CMakeFiles/CLion_Proj.dir/imgui_impl_glfw_gl3.cpp.i
+.PHONY : imgui_impl_glfw_gl3.cpp.i
+
+imgui_impl_glfw_gl3.s: imgui_impl_glfw_gl3.cpp.s
+
+.PHONY : imgui_impl_glfw_gl3.s
+
+# target to generate assembly for a file
+imgui_impl_glfw_gl3.cpp.s:
+	$(MAKE) -f CMakeFiles\CLion_Proj.dir\build.make CMakeFiles/CLion_Proj.dir/imgui_impl_glfw_gl3.cpp.s
+.PHONY : imgui_impl_glfw_gl3.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... CLion_Proj
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... imgui_impl_glfw_gl3.obj
+	@echo ... imgui_impl_glfw_gl3.i
+	@echo ... imgui_impl_glfw_gl3.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
