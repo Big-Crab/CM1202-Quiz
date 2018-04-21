@@ -1,10 +1,19 @@
 package database;
 
 public class QuizStatisticRecorder {
-    static private int selectedSchoolID,
-    selectedSchoolYear,
-    numCorrect,
-    numAnswered;
+    static private int selectedTheme,
+            selectedSchoolID,
+            selectedSchoolYear,
+            numCorrect,
+            numAnswered;
+
+    public static int getSelectedTheme() {
+        return selectedTheme;
+    }
+
+    public static void setSelectedTheme(int selectedTheme) {
+        QuizStatisticRecorder.selectedTheme = selectedTheme;
+    }
 
     public static int getSelectedSchoolID() {
         return selectedSchoolID;
@@ -33,6 +42,7 @@ public class QuizStatisticRecorder {
 
     public static void writeToDB() {
         //TODO
+        // Should get school ID and year and write the answers/corrects to DB
     }
 
     public static void clear() {
