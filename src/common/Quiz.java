@@ -1,6 +1,7 @@
 package common;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Quiz {
 
@@ -8,9 +9,9 @@ public class Quiz {
     public ArrayList<QuizPane> panes = new ArrayList<>();
     private int currentIndex = 0;
 
-    public Quiz(QuizPane pane) {
+    public Quiz(QuizPane[] paneArr) {
         //panes.clear();
-        panes.add(pane);
+        panes.addAll(Arrays.asList(paneArr));
     }
 
     public QuizPane getCurrent() {
@@ -25,5 +26,9 @@ public class Quiz {
             // Signal to the calling method that we've reached the end of the list, and that the finish screen should be displayed.
             return null;
         }
+    }
+
+    public int getNumberOfQuestions() {
+        return panes.size();
     }
 }

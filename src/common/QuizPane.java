@@ -45,6 +45,10 @@ public class QuizPane {
         return selectedID;
     }
 
+    public void removeAnswer() {
+        status = answerTypes.UNANSWERED;
+    }
+
     public void setSelectedID(byte selectedID) {
         if(selectedID == correctID) {
             status = answerTypes.CORRECT;

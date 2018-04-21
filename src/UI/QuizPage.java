@@ -9,6 +9,7 @@ import javax.xml.crypto.Data;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowEvent;
 
 public class QuizPage {
     private JTextPane paneQuestionText;
@@ -39,13 +40,15 @@ public class QuizPage {
     // and use it to change the statuses of answers etc.
     private Quiz quizContent;
 
+    private boolean answerLocked = false;
+
     private static JFrame frame;
 
     public static void main() {
         QuizPage page = new QuizPage();
         frame = new JFrame("Quiz Page");
         frame.setContentPane(page.panelMain);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
 
@@ -55,9 +58,10 @@ public class QuizPage {
         page.Start();
     }
 
-    public QuizPage() {
-        //Start();
-    }
+    // Not much point in a constructor if we can't edit the components yet.
+    /*public QuizPage() {
+
+    }*/
 
     /**
      * Run when initially loading this UI screen from the start screen.
@@ -73,12 +77,9 @@ public class QuizPage {
         loadContentToUI();
 
         //assign listener and anonymous class with method to the 'next' button
-        buttonNext.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                nextQuestion();
-            }
-        });
+        buttonNext.addActionListener(e -> nextQuestion());
+        buttonSelectAnswer.addActionListener(e -> verifyAnswer());
+        buttonPass.addActionListener(e -> passQuestion());
     }
 
     private void loadContentToUI() {
@@ -87,14 +88,18 @@ public class QuizPage {
         // Activate relevant buttons
 
         generateAnswerList();
-        buttonSelectAnswer.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                verifyAnswer();
-            }
-        });
-
         paneQuestionText.setText(quizContent.getCurrent().getQuestion());
+    }
+
+    /**
+     * Slightly different to nextQuestion, in that it
+     * forces the status of the current question to Unanswered,
+     * to avoid accidentally getting it wrong when you mean to
+     * pass it.
+     */
+    private void passQuestion() {
+        quizContent.getCurrent().removeAnswer();
+        nextQuestion();
     }
 
     /**
@@ -106,8 +111,20 @@ public class QuizPage {
         // Select whether to go to the next question or finish entirely
         if(quizContent.getNext() != null) {
             // Reset page and load new data
+            answerLocked = false;
+            for(Component component : paneAnswers.getComponents()) {
+                if(component instanceof JRadioButton) {
+                    paneAnswers.remove(component);
+                }
+            }
+            //paneAnswers.validate();
+            //paneAnswers.repaint();
+            loadContentToUI();
+            buttonPass.setEnabled(true);
+            buttonNext.setEnabled(false);
         } else {
-            // Go to finish page
+            FinishScreen.main();
+            frame.dispatchEvent(new WindowEvent(frame, WindowEvent.WINDOW_CLOSING));
         }
     }
 
@@ -120,6 +137,9 @@ public class QuizPage {
                     ", \"" + quizContent.getCurrent().getAnswers()[quizContent.getCurrent().getCorrectID()] + "\"");
         }
         buttonNext.setEnabled(true);
+        buttonSelectAnswer.setEnabled(false);
+        buttonPass.setEnabled(false);
+        answerLocked = true;
     }
 
     /**
@@ -140,11 +160,12 @@ public class QuizPage {
             button.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    buttonSelectAnswer.setEnabled(true);
-                    quizContent.getCurrent().setSelectedID(choiceID);
+                    if(!answerLocked) {
+                        buttonSelectAnswer.setEnabled(true);
+                        quizContent.getCurrent().setSelectedID(choiceID);
+                    }
                 }
             });
-            paneAnswers.getName();
             paneAnswers.add(button);
             paneAnswers.validate();
             i++;

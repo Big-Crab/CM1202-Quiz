@@ -2,302 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3b8aeff-7f9a-41eb-ac9e-c1c18734ba69" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_derby_derby_10_14_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/UI/FinishScreen.form" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/UI/FinishScreen.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/UI/QuizPage.form" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/UI/QuizPage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/UI/StartScreen.form" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/UI/StartScreen.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/common/Quiz.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/common/QuizPane.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/database/DatabaseManager.java" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/.idea/.name" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/.idea/CLion Proj.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/CMakeLists.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CLion_Proj.cbp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeCache.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/3.8.2/CMakeCCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/3.8.2/CMakeRCCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/3.8.2/CMakeSystem.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/a.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/CLion_Proj.dir/CXX.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/CLion_Proj.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/CLion_Proj.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/CLion_Proj.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/CLion_Proj.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/CLion_Proj.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/CLion_Proj.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/CLion_Proj.dir/imgui_impl_glfw_gl3.cpp.obj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/CLion_Proj.dir/includes_CXX.rsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/CLion_Proj.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/CLion_Proj.dir/linklibs.rsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/CLion_Proj.dir/main.cpp.obj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/CLion_Proj.dir/objects.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/CLion_Proj.dir/objects1.rsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/CLion_Proj.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/Makefile2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/Progress/1" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/Progress/3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/Progress/count.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/cmake.check_cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/feature_tests.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/feature_tests.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/CMakeFiles/progress.marks" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/Makefile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/cmake-build-debug/cmake_install.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/ext/gl3w/GL/gl3w.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/ext/gl3w/GL/gl3w.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/ext/gl3w/GL/glcorearb.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/ext/glfw" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/ext/imgui" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/extra_fonts/Cousine-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/extra_fonts/DroidSans.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/extra_fonts/Karla-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/extra_fonts/ProggyClean.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/extra_fonts/ProggyTiny.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/extra_fonts/README.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/extra_fonts/Roboto-Medium.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/extra_fonts/binary_to_compressed_c.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/imgui_impl_glfw_gl3.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/imgui_impl_glfw_gl3.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/main.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CLion Proj/mainOLD.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CM1202.iml" afterPath="$PROJECT_DIR$/CM1202.iml" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/.dep.inc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/Makefile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/gl3w/GL/gl3w.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/gl3w/GL/gl3w.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/gl3w/GL/glcorearb.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/glfw" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/.travis.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/LICENSE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/TODO.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/README.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/allegro5_example/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/allegro5_example/imgui_impl_a5.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/allegro5_example/imgui_impl_a5.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/allegro5_example/main.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/AppDelegate.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/AppDelegate.m" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/Base.lproj/LaunchScreen.xib" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/Base.lproj/Main.storyboard" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/GameViewController.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/GameViewController.m" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/Images.xcassets/AppIcon.appiconset/icon_imgui_60@2x~iphone.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/Images.xcassets/AppIcon.appiconset/icon_imgui_60@3x~iphone.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/Images.xcassets/AppIcon.appiconset/icon_imgui_76@2x~ipad.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/Images.xcassets/AppIcon.appiconset/icon_imgui_76~ipad.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/Info.plist" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/Shaders/Shader.fsh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/Shaders/Shader.vsh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/debug_hud.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/debug_hud.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/imgui_ex_icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/imgui_impl_ios.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/imgui_impl_ios.mm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-ios/main.m" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-osx/AppDelegate.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-osx/AppDelegate.m" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-osx/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-osx/Assets.xcassets/AppIcon.appiconset/icon_imgui_180x180.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-osx/Assets.xcassets/Contents.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-osx/Info.plist" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex-osx/main.m" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/apple_example/imguiex.xcodeproj/project.pbxproj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/directx10_example/build_win32.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/directx10_example/directx10_example.vcxproj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/directx10_example/directx10_example.vcxproj.filters" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/directx10_example/imgui_impl_dx10.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/directx10_example/imgui_impl_dx10.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/directx10_example/main.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/directx11_example/build_win32.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/directx11_example/directx11_example.vcxproj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/directx11_example/directx11_example.vcxproj.filters" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/directx11_example/imgui_impl_dx11.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/directx11_example/imgui_impl_dx11.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/directx11_example/main.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/directx9_example/build_win32.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/directx9_example/directx9_example.vcxproj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/directx9_example/directx9_example.vcxproj.filters" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/directx9_example/imgui_impl_dx9.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/directx9_example/imgui_impl_dx9.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/directx9_example/main.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/imgui_examples_msvc2010.sln" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/libs/gl3w/GL/gl3w.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/libs/gl3w/GL/gl3w.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/libs/gl3w/GL/glcorearb.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/libs/glfw/COPYING.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/libs/glfw/include/GLFW/glfw3.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/libs/glfw/include/GLFW/glfw3native.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/libs/glfw/lib-vc2010-32/glfw3.lib" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/libs/glfw/lib-vc2010-64/glfw3.lib" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/libs/usynergy/uSynergy.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/libs/usynergy/uSynergy.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/marmalade_example/data/app.icf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/marmalade_example/imgui_impl_marmalade.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/marmalade_example/imgui_impl_marmalade.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/marmalade_example/main.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/marmalade_example/marmalade_example.mkb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/opengl2_example/Makefile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/opengl2_example/build_win32.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/opengl2_example/imgui_impl_glfw.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/opengl2_example/imgui_impl_glfw.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/opengl2_example/main.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/opengl2_example/opengl2_example.vcxproj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/opengl2_example/opengl2_example.vcxproj.filters" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/opengl3_example/Makefile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/opengl3_example/build_win32.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/opengl3_example/imgui_impl_glfw_gl3.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/opengl3_example/main.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/opengl3_example/opengl3_example.vcxproj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/opengl3_example/opengl3_example.vcxproj.filters" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/sdl_opengl2_example/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/sdl_opengl2_example/build_win32.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/sdl_opengl2_example/imgui_impl_sdl.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/sdl_opengl2_example/imgui_impl_sdl.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/sdl_opengl2_example/main.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/sdl_opengl3_example/Makefile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/sdl_opengl3_example/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/sdl_opengl3_example/build_win32.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/sdl_opengl3_example/imgui_impl_sdl_gl3.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/sdl_opengl3_example/imgui_impl_sdl_gl3.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/sdl_opengl3_example/main.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/vulkan_example/CMakeLists.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/vulkan_example/build_win32.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/vulkan_example/build_win64.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/vulkan_example/gen_spv.sh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/vulkan_example/glsl_shader.frag" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/vulkan_example/glsl_shader.vert" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/vulkan_example/imgui_impl_glfw_vulkan.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/vulkan_example/imgui_impl_glfw_vulkan.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/examples/vulkan_example/main.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/extra_fonts/Cousine-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/extra_fonts/DroidSans.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/extra_fonts/Karla-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/extra_fonts/ProggyClean.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/extra_fonts/ProggyTiny.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/extra_fonts/README.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/extra_fonts/Roboto-Medium.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/extra_fonts/binary_to_compressed_c.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/imconfig.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/imgui.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/imgui.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/imgui_demo.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/imgui_draw.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/imgui_internal.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/stb_rect_pack.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/stb_textedit.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/ext/imgui/stb_truetype.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/main.cc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/main.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/nbproject/Makefile-Debug.mk" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/nbproject/Makefile-Release.mk" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/nbproject/Makefile-impl.mk" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/nbproject/Makefile-variables.mk" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/nbproject/Package-Debug.bash" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/nbproject/Package-Release.bash" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/nbproject/configurations.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/nbproject/private/Makefile-variables.mk" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/nbproject/private/c_standard_headers_indexer.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/nbproject/private/configurations.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/nbproject/private/cpp_standard_headers_indexer.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/nbproject/private/launcher.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/nbproject/private/private.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NetBeans Proj/Quiz/nbproject/project.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/COMSCQuizUI/COMSCQuizUI.pro" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/COMSCQuizUI/COMSCQuizUI.pro.user" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/COMSCQuizUI/main.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/COMSCQuizUI/mainwindow.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/COMSCQuizUI/mainwindow.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/COMSCQuizUI/mainwindow.ui" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/COMSCQuizUI/pindialog.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/COMSCQuizUI/pindialog.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/COMSCQuizUI/pindialog.ui" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/COMSCQuizUI/pinscreen.ui" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/build-COMSCQuizUI-Desktop-Debug/.qmake.stash" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/build-COMSCQuizUI-Desktop-Debug/.qmake.winrt_uuid_COMSCQuizUI" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/build-COMSCQuizUI-Desktop-Debug/Makefile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/build-COMSCQuizUI-Desktop-Debug/debug/AppxManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/build-COMSCQuizUI-Desktop-Debug/debug/assets/logo_150x150.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/build-COMSCQuizUI-Desktop-Debug/debug/assets/logo_44x44.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/build-COMSCQuizUI-Desktop-Debug/debug/assets/logo_620x300.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/build-COMSCQuizUI-Desktop-Debug/debug/assets/logo_store.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/build-COMSCQuizUI-Desktop-Debug/release/AppxManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/build-COMSCQuizUI-Desktop-Debug/release/assets/logo_150x150.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/build-COMSCQuizUI-Desktop-Debug/release/assets/logo_44x44.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/build-COMSCQuizUI-Desktop-Debug/release/assets/logo_620x300.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Qt/build-COMSCQuizUI-Desktop-Debug/release/assets/logo_store.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/.travis.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/LICENSE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/TODO.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/extra_fonts/Cousine-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/extra_fonts/DroidSans.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/extra_fonts/Karla-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/extra_fonts/ProggyClean.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/extra_fonts/ProggyTiny.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/extra_fonts/README.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/extra_fonts/Roboto-Medium.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/extra_fonts/binary_to_compressed_c.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/imconfig.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/imgui.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/imgui.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/imgui_demo.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/imgui_draw.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/imgui_internal.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/.vs/imgui_cm1202/v15/ipch/AutoPCH/3e0031980c439fa8/MAINWINDOW.ipch" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/.vs/imgui_cm1202/v15/ipch/AutoPCH/769634f51e174e34/MAIN.ipch" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/.vs/imgui_cm1202/v15/ipch/AutoPCH/c009d134b62fa8ad/IMGUI_IMPL_GLFW_GL3.ipch" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/.vs/imgui_cm1202/v15/ipch/AutoPCH/cc8e3efa10e61c44/MAIN.ipch" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/README.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/imgui_cm1202.sln" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/libs/gl3w/GL/gl3w.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/libs/gl3w/GL/gl3w.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/libs/gl3w/GL/glcorearb.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/libs/glfw/COPYING.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/libs/glfw/include/GLFW/glfw3.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/libs/glfw/include/GLFW/glfw3native.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/libs/glfw/lib-vc2010-32/glfw3.lib" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/libs/glfw/lib-vc2010-64/glfw3.lib" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/libs/usynergy/uSynergy.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/libs/usynergy/uSynergy.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/opengl3_example/MainWindow.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/opengl3_example/MainWindow.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/opengl3_example/Makefile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/opengl3_example/build_win32.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/opengl3_example/imgui_impl_glfw_gl3.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/opengl3_example/imgui_impl_glfw_gl3.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/opengl3_example/main.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/opengl3_example/opengl3_example.vcxproj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/project/opengl3_example/opengl3_example.vcxproj.filters" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/stb_rect_pack.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/stb_textedit.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VS15 Project/stb_truetype.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/architecture.txt" afterPath="$PROJECT_DIR$/architecture.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/common/Theme.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/database/QuizStatisticRecorder.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/FinishScreen.class" afterPath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/FinishScreen.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/QuizPage$1.class" afterPath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/QuizPage$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/QuizPage$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/QuizPage$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/QuizPage.class" afterPath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/QuizPage.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/StartScreen$1.class" afterPath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/StartScreen$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/StartScreen.class" afterPath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/StartScreen.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/common/Quiz.class" afterPath="$PROJECT_DIR$/out/production/CM1202 DQS/common/Quiz.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/common/QuizPane.class" afterPath="$PROJECT_DIR$/out/production/CM1202 DQS/common/QuizPane.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/database/DatabaseManager.class" afterPath="$PROJECT_DIR$/out/production/CM1202 DQS/database/DatabaseManager.class" />
+      <change beforePath="$PROJECT_DIR$/src/UI/FinishScreen.form" afterPath="$PROJECT_DIR$/src/UI/FinishScreen.form" />
+      <change beforePath="$PROJECT_DIR$/src/UI/FinishScreen.java" afterPath="$PROJECT_DIR$/src/UI/FinishScreen.java" />
+      <change beforePath="$PROJECT_DIR$/src/UI/QuizPage.form" afterPath="$PROJECT_DIR$/src/UI/QuizPage.form" />
+      <change beforePath="$PROJECT_DIR$/src/UI/QuizPage.java" afterPath="$PROJECT_DIR$/src/UI/QuizPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/UI/StartScreen.form" afterPath="$PROJECT_DIR$/src/UI/StartScreen.form" />
+      <change beforePath="$PROJECT_DIR$/src/UI/StartScreen.java" afterPath="$PROJECT_DIR$/src/UI/StartScreen.java" />
+      <change beforePath="$PROJECT_DIR$/src/common/Quiz.java" afterPath="$PROJECT_DIR$/src/common/Quiz.java" />
+      <change beforePath="$PROJECT_DIR$/src/common/QuizPane.java" afterPath="$PROJECT_DIR$/src/common/QuizPane.java" />
+      <change beforePath="$PROJECT_DIR$/src/database/DatabaseManager.java" afterPath="$PROJECT_DIR$/src/database/DatabaseManager.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -309,18 +35,60 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DQS_UI$Main.coverage" NAME="Main Coverage Results" MODIFIED="1523993642546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/DQS_UI$StartScreen.coverage" NAME="StartScreen Coverage Results" MODIFIED="1524096047048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>UI.*</FILTER>
+    </SUITE>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DatabaseManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/database/DatabaseManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuizStatisticRecorder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/database/QuizStatisticRecorder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Theme.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/Theme.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="StartScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="623">
+              <caret line="53" column="145" lean-forward="false" selection-start-line="53" selection-start-column="145" selection-end-line="53" selection-end-column="145" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#849#850#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#1143#1144#0" expanded="true" />
+                <element signature="e#1185#1186#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -333,29 +101,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/database/DatabaseManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="164" lean-forward="false" selection-start-line="23" selection-start-column="164" selection-end-line="23" selection-end-column="164" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="QuizPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/UI/QuizPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="133" column="18" lean-forward="true" selection-start-line="133" selection-start-column="18" selection-end-line="133" selection-end-column="18" />
+            <state relative-caret-position="378">
+              <caret line="123" column="41" lean-forward="false" selection-start-line="123" selection-start-column="41" selection-end-line="123" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1977#1978#0" expanded="true" />
-                <element signature="e#2023#2024#0" expanded="true" />
-                <element signature="e#2341#2342#0" expanded="true" />
-                <element signature="e#2387#2388#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -368,45 +120,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuizPane.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/QuizPane.java">
+      <file leaf-file-name="FinishScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/FinishScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <element signature="e#597#598#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
-                <element signature="e#782#783#0" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#902#903#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
-                <element signature="e#982#983#0" expanded="true" />
-                <element signature="e#1024#1025#0" expanded="true" />
-                <element signature="e#1059#1060#0" expanded="true" />
-                <element signature="e#1092#1093#0" expanded="true" />
-                <element signature="e#1371#1372#0" expanded="true" />
-                <element signature="e#1423#1424#0" expanded="true" />
-                <element signature="e#1458#1459#0" expanded="true" />
-                <element signature="e#1513#1514#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quiz.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/Quiz.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-              <folding>
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-              </folding>
-            </state>
+      <file leaf-file-name="FinishScreen.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/FinishScreen.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -418,6 +145,18 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>validate</find>
+      <find>verifyAnswer</find>
+      <find>buttonSelectAnswer</find>
+      <find>start</find>
+      <find>pass</find>
+      <find>gettest</find>
+      <find>buttonNext</find>
+      <find>nextQ</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -432,22 +171,25 @@
       <list>
         <option value="$PROJECT_DIR$/src/Database/DatabaseManager.java" />
         <option value="$PROJECT_DIR$/src/MathQuizGUI.java" />
-        <option value="$PROJECT_DIR$/src/UI/StartScreen.form" />
-        <option value="$PROJECT_DIR$/src/common/Quiz.java" />
-        <option value="$PROJECT_DIR$/src/database/DatabaseManager.java" />
-        <option value="$PROJECT_DIR$/src/common/QuizPane.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/UI/QuizPage.form" />
-        <option value="$PROJECT_DIR$/src/UI/StartScreen.java" />
+        <option value="$PROJECT_DIR$/src/common/QuizPane.java" />
+        <option value="$PROJECT_DIR$/src/UI/FinishScreen.java" />
+        <option value="$PROJECT_DIR$/src/common/Quiz.java" />
+        <option value="$PROJECT_DIR$/src/UI/FinishScreen.form" />
+        <option value="$PROJECT_DIR$/src/database/DatabaseManager.java" />
         <option value="$PROJECT_DIR$/src/UI/QuizPage.java" />
+        <option value="$PROJECT_DIR$/src/UI/QuizPage.form" />
+        <option value="$PROJECT_DIR$/src/UI/StartScreen.form" />
+        <option value="$PROJECT_DIR$/src/UI/StartScreen.java" />
+        <option value="$PROJECT_DIR$/src/database/QuizStatisticRecorder.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="-1928" />
     <option name="y" value="-8" />
     <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="height" value="527" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -464,7 +206,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -497,13 +239,6 @@
             </path>
             <path>
               <item name="DQS-UI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CM1202 DQS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="StartScreen" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="DQS-UI" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -511,8 +246,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -677,24 +412,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23860021" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14270833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -706,6 +440,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -713,19 +449,202 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/FinishScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/DatabaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="213" lean-forward="false" selection-start-line="26" selection-start-column="213" selection-end-line="26" selection-end-column="213" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/FinishScreen.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/QuizPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2074">
+          <caret line="122" column="38" lean-forward="false" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/QuizPage.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/QuizPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <element signature="e#597#598#0" expanded="false" />
+            <element signature="e#628#629#0" expanded="false" />
+            <element signature="e#676#677#0" expanded="false" />
+            <element signature="e#716#717#0" expanded="false" />
+            <element signature="e#752#753#0" expanded="false" />
+            <element signature="e#782#783#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#868#869#0" expanded="false" />
+            <element signature="e#902#903#0" expanded="false" />
+            <element signature="e#934#935#0" expanded="false" />
+            <element signature="e#982#983#0" expanded="false" />
+            <element signature="e#1024#1025#0" expanded="false" />
+            <element signature="e#1059#1060#0" expanded="false" />
+            <element signature="e#1092#1093#0" expanded="false" />
+            <element signature="e#1126#1127#0" expanded="false" />
+            <element signature="e#1173#1174#0" expanded="false" />
+            <element signature="e#1452#1453#0" expanded="false" />
+            <element signature="e#1504#1505#0" expanded="false" />
+            <element signature="e#1539#1540#0" expanded="false" />
+            <element signature="e#1594#1595#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Quiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#429#430#0" expanded="false" />
+            <element signature="e#475#476#0" expanded="false" />
+            <element signature="e#838#839#0" expanded="false" />
+            <element signature="e#873#874#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/DatabaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="164" lean-forward="false" selection-start-line="23" selection-start-column="164" selection-end-line="23" selection-end-column="164" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/QuizPage.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/QuizPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="e#597#598#0" expanded="false" />
+            <element signature="e#628#629#0" expanded="false" />
+            <element signature="e#676#677#0" expanded="false" />
+            <element signature="e#716#717#0" expanded="false" />
+            <element signature="e#752#753#0" expanded="false" />
+            <element signature="e#782#783#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#868#869#0" expanded="false" />
+            <element signature="e#902#903#0" expanded="false" />
+            <element signature="e#934#935#0" expanded="false" />
+            <element signature="e#982#983#0" expanded="false" />
+            <element signature="e#1024#1025#0" expanded="false" />
+            <element signature="e#1059#1060#0" expanded="false" />
+            <element signature="e#1092#1093#0" expanded="false" />
+            <element signature="e#1126#1127#0" expanded="false" />
+            <element signature="e#1173#1174#0" expanded="false" />
+            <element signature="e#1452#1453#0" expanded="false" />
+            <element signature="e#1504#1505#0" expanded="false" />
+            <element signature="e#1539#1540#0" expanded="false" />
+            <element signature="e#1594#1595#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Quiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#429#430#0" expanded="false" />
+            <element signature="e#475#476#0" expanded="false" />
+            <element signature="e#838#839#0" expanded="false" />
+            <element signature="e#873#874#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/QuizPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="133" column="18" lean-forward="true" selection-start-line="133" selection-start-column="18" selection-end-line="133" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -745,22 +664,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -770,22 +682,15 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -795,22 +700,15 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -820,22 +718,15 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -845,22 +736,15 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -870,34 +754,88 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MathQuizGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/MathQuizGUI.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_gui-swing-questionnaire-master.zip/gui-swing-questionnaire-master/Entities/Main.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_gui-swing-questionnaire-master.zip/gui-swing-questionnaire-master/Entities/QuestionList.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_gui-swing-questionnaire-master.zip/gui-swing-questionnaire-master/Entities/Question.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.desktop/java/awt/Container.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="106" column="27" lean-forward="false" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="202">
+          <caret line="1147" column="0" lean-forward="false" selection-start-line="1147" selection-start-column="0" selection-end-line="1147" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_gui-swing-questionnaire-master.zip/gui-swing-questionnaire-master/Entities/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_gui-swing-questionnaire-master.zip/gui-swing-questionnaire-master/Entities/QuestionList.java">
+    <entry file="file://$PROJECT_DIR$/src/common/QuizPane.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding>
+            <element signature="e#597#598#0" expanded="false" />
+            <element signature="e#628#629#0" expanded="false" />
+            <element signature="e#676#677#0" expanded="false" />
+            <element signature="e#716#717#0" expanded="false" />
+            <element signature="e#752#753#0" expanded="false" />
+            <element signature="e#782#783#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#868#869#0" expanded="false" />
+            <element signature="e#902#903#0" expanded="false" />
+            <element signature="e#934#935#0" expanded="false" />
+            <element signature="e#982#983#0" expanded="false" />
+            <element signature="e#1024#1025#0" expanded="false" />
+            <element signature="e#1059#1060#0" expanded="false" />
+            <element signature="e#1092#1093#0" expanded="false" />
+            <element signature="e#1126#1127#0" expanded="false" />
+            <element signature="e#1173#1174#0" expanded="false" />
+            <element signature="e#1452#1453#0" expanded="false" />
+            <element signature="e#1504#1505#0" expanded="false" />
+            <element signature="e#1539#1540#0" expanded="false" />
+            <element signature="e#1594#1595#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Quiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#429#430#0" expanded="false" />
+            <element signature="e#475#476#0" expanded="false" />
+            <element signature="e#838#839#0" expanded="false" />
+            <element signature="e#873#874#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/QuizStatisticRecorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Theme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_gui-swing-questionnaire-master.zip/gui-swing-questionnaire-master/Entities/Question.java">
+    <entry file="file://$PROJECT_DIR$/src/UI/FinishScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -907,37 +845,15 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/FinishScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/Quiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding>
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="12" selection-end-column="5" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/UI/QuizPage.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/database/DatabaseManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="164" lean-forward="false" selection-start-line="23" selection-start-column="164" selection-end-line="23" selection-end-column="164" />
+        <state relative-caret-position="595">
+          <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -951,66 +867,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="623">
+          <caret line="53" column="145" lean-forward="false" selection-start-line="53" selection-start-column="145" selection-end-line="53" selection-end-column="145" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/QuizPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-            <element signature="e#1371#1372#0" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1458#1459#0" expanded="true" />
-            <element signature="e#1513#1514#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.desktop/java/awt/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="1147" column="0" lean-forward="false" selection-start-line="1147" selection-start-column="0" selection-end-line="1147" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/QuizPage.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/QuizPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="133" column="18" lean-forward="true" selection-start-line="133" selection-start-column="18" selection-end-line="133" selection-end-column="18" />
+        <state relative-caret-position="378">
+          <caret line="123" column="41" lean-forward="false" selection-start-line="123" selection-start-column="41" selection-end-line="123" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1977#1978#0" expanded="true" />
-            <element signature="e#2023#2024#0" expanded="true" />
-            <element signature="e#2341#2342#0" expanded="true" />
-            <element signature="e#2387#2388#0" expanded="true" />
           </folding>
         </state>
       </provider>
