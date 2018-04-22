@@ -71,7 +71,8 @@ public class QuizPage {
         //copy the control buttons
 
 
-        quizContent = DatabaseManager.getTestData();
+        DatabaseManager.getDBM();
+        quizContent = DatabaseManager.getDBM().getQuizContent();
 
         //load 1st question
         loadContentToUI();
@@ -157,13 +158,10 @@ public class QuizPage {
             button.setActionCommand(String.valueOf(i));
             answerGroup.add(button);
             final byte choiceID = (byte) i;
-            button.addActionListener(new ActionListener() {
-                @Override
-                public void actionPerformed(ActionEvent e) {
-                    if(!answerLocked) {
-                        buttonSelectAnswer.setEnabled(true);
-                        quizContent.getCurrent().setSelectedID(choiceID);
-                    }
+            button.addActionListener(e -> {
+                if(!answerLocked) {
+                    buttonSelectAnswer.setEnabled(true);
+                    quizContent.getCurrent().setSelectedID(choiceID);
                 }
             });
             paneAnswers.add(button);

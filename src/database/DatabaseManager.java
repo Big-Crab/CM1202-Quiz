@@ -44,47 +44,51 @@ public final class DatabaseManager {
         String[] initQueries = {
                 "CREATE TABLE THEMES(ID int auto_increment primary key, themeName varchar(255))",
                 "CREATE TABLE QUESTIONS(ID int auto_increment primary key, content varchar(255), THEMEID int, foreign key (THEMEID) references THEMES(ID))",
-                "CREATE TABLE ANSWERS(ID int auto_increment primary key, content varchar(255), correct bit default 0, QUESTIONID int, foreign key (QUESTIONID) references THEMES(ID))",
+                "CREATE TABLE ANSWERS(ID int auto_increment primary key, content varchar(255), correct bit default 0, QUESTIONID int, FOREIGN KEY (QUESTIONID) REFERENCES QUESTIONS(ID))",
                 "CREATE TABLE SCHOOLS(ID int auto_increment primary key, name varchar(255))",
-                "CREATE TABLE YEARS(ID int auto_increment primary key, year int, correctlyAnswered int default 0, totalAnswered int default 0, SCHOOLID int, foreign key (SCHOOLID) references SCHOOLS(ID))"
+                "CREATE TABLE YEARS(ID int auto_increment primary key, year int, correctlyAnswered int default 0, totalAnswered int default 0, SCHOOLID int, FOREIGN KEY (SCHOOLID) REFERENCES SCHOOLS(ID))"
         };
         executeList(initQueries);
 
         // TEST DATA ONLY
         String[] insertQueries = { // Use DEFAULT for the autoincrement fields, or simply specify all other fields than the autoincrement ones in the TABLE(value1, value2, ...)
                 "INSERT INTO THEMES VALUES (DEFAULT, 'Default Theme')",
-                "INSERT INTO QUESTIONS VALUES (DEFAULT, 'Which of the following languages is Czech?', 0)",
-                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Option A', 0, 0)",
-                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Möglichkeit B', 0, 0)",
-                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Opción C', 0, 0)",
-                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Επιλογή Δ', 0, 0)",
-                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Možnost E', 1, 0)",
 
-                "INSERT INTO QUESTIONS VALUES (DEFAULT, 'Welches ist die Hauptstadt von Österreich?', 0)",
-                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Salzburg', 0, 0)",
-                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Wien', 1, 0)",
-                "INSERT INTO ANSWERS VALUES (DEFAULT, 'München', 0, 0)",
-                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Innsbruck', 0, 0)",
-                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Jungholz', 0, 0)",
+                "INSERT INTO QUESTIONS VALUES (DEFAULT, 'Which of the following languages is Czech?', (select ID from THEMES where themeName='Default Theme'))",
+                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Option A', 0, (select ID from QUESTIONS where ID=1))",
+                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Möglichkeit B', 0, (select ID from QUESTIONS where ID=1))",
+                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Opción C', 0, (select ID from QUESTIONS where ID=1))",
+                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Επιλογή Δ', 0, (select ID from QUESTIONS where ID=1))",
+                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Možnost E', 1, (select ID from QUESTIONS where ID=1))",
 
-                "INSERT INTO QUESTIONS VALUES (DEFAULT, 'Who is the Prime Minister of Liechtenstein?', 0)",
-                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Thomas Zweifelhofer', 0, 0)",
-                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Klaus Tschütscher', 0, 0)",
-                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Sebastian Kurz', 0, 0)",
-                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Adrian Hasler', 1, 0)",
-                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Alexander Van der Bellen', 0, 0)",
+                "INSERT INTO QUESTIONS VALUES (DEFAULT, 'Welches ist die Hauptstadt von Österreich?', (select ID from THEMES where themeName='Default Theme'))",
+                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Salzburg', 0, (select ID from QUESTIONS where ID=2))",
+                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Wien', 1, (select ID from QUESTIONS where ID=2))",
+                "INSERT INTO ANSWERS VALUES (DEFAULT, 'München', 0, (select ID from QUESTIONS where ID=2))",
+                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Innsbruck', 0, (select ID from QUESTIONS where ID=2))",
+                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Jungholz', 0, (select ID from QUESTIONS where ID=2))",
 
-                "INSERT INTO SCHOOLS(DEFAULT, 'State School A')",
-                "INSERT INTO YEARS(DEFAULT, 7, 0, 0, 0)",
-                "INSERT INTO YEARS(DEFAULT, 8, 0, 0, 0)",
-                "INSERT INTO SCHOOLS(DEFAULT, 'Private School B')",
-                "INSERT INTO YEARS(DEFAULT, 9, 0, 0, 1)",
-                "INSERT INTO YEARS(DEFAULT, 10, 0, 0, 1)",
-                "INSERT INTO SCHOOLS(DEFAULT, 'Boarding School C')",
-                "INSERT INTO YEARS(DEFAULT, 9, 0, 0, 2)",
-                "INSERT INTO YEARS(DEFAULT, 11, 0, 0, 2)",
+                "INSERT INTO QUESTIONS VALUES (DEFAULT, 'Who is the Prime Minister of Liechtenstein?', (select ID from THEMES where themeName='Default Theme'))",
+                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Thomas Zweifelhofer', 0, (select ID from QUESTIONS where ID=3))",
+                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Klaus Tschütscher', 0, (select ID from QUESTIONS where ID=3))",
+                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Sebastian Kurz', 0, (select ID from QUESTIONS where ID=3))",
+                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Adrian Hasler', 1, (select ID from QUESTIONS where ID=3))",
+                "INSERT INTO ANSWERS VALUES (DEFAULT, 'Alexander Van der Bellen', 0, (select ID from QUESTIONS where ID=3))",
+
+                "INSERT INTO SCHOOLS VALUES (DEFAULT, 'State School A')",
+                "INSERT INTO YEARS VALUES (DEFAULT, 7, 0, 0, (select ID from SCHOOLS where ID=1))",
+                "INSERT INTO YEARS VALUES (DEFAULT, 8, 0, 0, (select ID from SCHOOLS where ID=1))",
+                "INSERT INTO SCHOOLS VALUES (DEFAULT, 'Private School B')",
+                "INSERT INTO YEARS VALUES (DEFAULT, 9, 0, 0, (select ID from SCHOOLS where ID=2))",
+                "INSERT INTO YEARS VALUES (DEFAULT, 10, 0, 0, (select ID from SCHOOLS where ID=2))",
+                "INSERT INTO SCHOOLS VALUES (DEFAULT, 'Boarding School C')",
+                "INSERT INTO YEARS VALUES (DEFAULT, 9, 0, 0, (select ID from SCHOOLS where ID=3))",
+                "INSERT INTO YEARS VALUES (DEFAULT, 11, 0, 0, (select ID from SCHOOLS where ID=3))",
         };
-        //
+        executeList(insertQueries);
+
+        //TODO this is temp, remove this
+        refreshQuizContent(1);
     }
 
     private void executeList(String[] list) throws SQLException{
@@ -94,7 +98,7 @@ public final class DatabaseManager {
             connection.setAutoCommit(false);
             Statement statement = connection.createStatement();
             for (String query : list) {
-                statement.execute(query);
+                statement.executeUpdate(query);
             }
             statement.close();
             connection.commit();
@@ -126,23 +130,50 @@ public final class DatabaseManager {
      * @param themeSelected
      * @throws SQLException
      */
-    public Quiz refreshQuizContent(int themeSelected) throws SQLException{
+    public Quiz refreshQuizContent(int themeSelected) throws SQLException {
         // Iterate through DB, getting answers and questions together into QuizPanes
         // Get panes and collate into Quiz
 
         ArrayList<QuizPane> panes = new ArrayList<>();
+        String sQuestion = null;
+        ArrayList<String> sAnswers = new ArrayList<>();
+        byte correctID = -1;
 
         Connection connection = null;
         try {
             connection = getDBConnection();
-            Statement statement = connection.createStatement();
-            ResultSet questions = statement.executeQuery("SELECT content FROM QUESTIONS WHERE THEMEID='" + themeSelected + "'");
+            Statement statementQuestions = connection.createStatement();
+            ResultSet questions = statementQuestions.executeQuery("SELECT ID, content FROM QUESTIONS WHERE THEMEID='" + themeSelected + "'");
             System.out.println("Questions acquired from DB.");
             while(questions.next()) {
-                System.out.println("Question: " + questions.getString("content"));
+                System.out.println("Question: " + questions.getString("content") + ", Question ID: " + questions.getString("ID"));
+                sQuestion = questions.getString("content");
+
+                Statement statementAnswers = connection.createStatement();
+                ResultSet answers = statementAnswers.executeQuery("SELECT ID, content, correct, QUESTIONID FROM ANSWERS WHERE QUESTIONID='" + questions.getInt("ID") + "'");
+
+                int i = 0;
+                while(answers.next()) {
+                    System.out.println("Answer: " + answers.getString("content") + ", Answer ID: " + answers.getString("ID"));
+                    sAnswers.add(answers.getString("content"));
+
+                    //Bit gets interpreted as bool here
+                    if(answers.getBoolean("correct")) {
+                        correctID = (byte) i;
+                    }
+                    i++;
+                }
+
+                //Now that question, list of answers, and correct index have been set, form them into a QuizPane
+                panes.add(new QuizPane(sQuestion, sAnswers.toArray(new String[sAnswers.size()]), correctID));
+                sAnswers.clear();
             }
-            statement.close();
+
+            Quiz result = new Quiz(panes.toArray(new QuizPane[panes.size()]));
+            statementQuestions.close();
             connection.commit();
+            quizContent = result;
+            return result;
 
         } catch (SQLException e) {
             e.printStackTrace();
@@ -155,18 +186,6 @@ public final class DatabaseManager {
     public Quiz getQuizContent() {
         return quizContent;
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
     private static Connection getDBConnection() {
         Connection dbConnection = null;
@@ -185,25 +204,59 @@ public final class DatabaseManager {
         return dbConnection;
     }
 
-    public static Quiz getTestData() {
-        // Test data
-        // 5th option, ID 4 is the correct answer
-        return new Quiz(
-                new QuizPane[] {
-                        new QuizPane("Which of the following languages is Czech?", new String[]{"Option A", "Möglichkeit B", "Opción C", "Επιλογή Δ", "Možnost E"}, (byte) 4),
-                        new QuizPane("Welches ist die Hauptstadt von Österreich?", new String[]{"Salzburg", "Wien", "München", "Innsbruck", "Jungholz"}, (byte) 1),
-                        new QuizPane("Who is the Prime Minister of Liechtenstein?", new String[]{"Thomas Zweifelhofer", "Klaus Tschütscher", "Sebastian Kurz", "Adrian Hasler", "Alexander Van der Bellen"}, (byte) 3),
-                }
-        );
+//    public static Quiz getTestData() {
+//        // Test data
+//        // 5th option, ID 4 is the correct answer
+//        return new Quiz(
+//                new QuizPane[] {
+//                        new QuizPane("Which of the following languages is Czech?", new String[]{"Option A", "Möglichkeit B", "Opción C", "Επιλογή Δ", "Možnost E"}, (byte) 4),
+//                        new QuizPane("Welches ist die Hauptstadt von Österreich?", new String[]{"Salzburg", "Wien", "München", "Innsbruck", "Jungholz"}, (byte) 1),
+//                        new QuizPane("Who is the Prime Minister of Liechtenstein?", new String[]{"Thomas Zweifelhofer", "Klaus Tschütscher", "Sebastian Kurz", "Adrian Hasler", "Alexander Van der Bellen"}, (byte) 3),
+//                }
+//        );
+//    }
+
+    public String[] getSchools() throws SQLException{
+        ArrayList<String> sSchools = new ArrayList<>();
+        Connection connection = null;
+        try {
+            connection = getDBConnection();
+            Statement statementSchools = connection.createStatement();
+            ResultSet schools = statementSchools.executeQuery("SELECT * FROM SCHOOLS");
+            System.out.println("Schools acquired from DB.");
+            while(schools.next()) {
+                sSchools.add(schools.getString("name"));
+            }
+            statementSchools.close();
+            connection.commit();
+            return sSchools.toArray(new String[sSchools.size()]);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        } finally {
+            connection.close();
+        }
     }
 
-    public static String[] getSchools() {
-        // Test data
-        return new String[] {
-                "Default District School",
-                "Emmbrook Secondary School",
-                "Cardiff School of Schooling",
-                "Michael School (New Jersey)"
-        };
+    public Integer[] getYears(int ID) throws SQLException{
+        ArrayList<Integer> iYears = new ArrayList<>();
+        Connection connection = null;
+        try {
+            connection = getDBConnection();
+            Statement statementYears = connection.createStatement();
+            ResultSet schools = statementYears.executeQuery("SELECT * FROM YEARS WHERE SCHOOLID = "+ID);
+            System.out.println("Years acquired from DB.");
+            while(schools.next()) {
+                iYears.add(schools.getInt("year"));
+            }
+            statementYears.close();
+            connection.commit();
+            return iYears.toArray(new Integer[iYears.size()]);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        } finally {
+            connection.close();
+        }
     }
 }

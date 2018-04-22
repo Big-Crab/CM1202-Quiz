@@ -1,6 +1,8 @@
 package database;
 
 public class QuizStatisticRecorder {
+    // If the selected ID for something is 0, DON'T RECORD STATS FOR IT
+
     static private int selectedTheme,
             selectedSchoolID,
             selectedSchoolYear,
