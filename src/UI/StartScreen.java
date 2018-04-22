@@ -77,7 +77,11 @@ public class StartScreen {
     public void goToQuiz() {
         // We do not need to add +1 to the index, despite SQL starting at 1, because we have the "None" option, which buffers the others up by 1
         QuizStatisticRecorder.setSelectedSchoolID(schoolBox.getSelectedIndex());
-        QuizStatisticRecorder.setSelectedSchoolYear(yearGroupBox.getSelectedIndex());
+        if(yearGroupBox.getSelectedIndex() > 0) {
+            QuizStatisticRecorder.setSelectedSchoolYear((Integer) yearGroupBox.getSelectedItem());
+        } else {
+            QuizStatisticRecorder.setSelectedSchoolYear(0);
+        }
         QuizStatisticRecorder.setSelectedTheme(selectedTheme);
 
         // Create the quiz window and then...

@@ -2,7 +2,6 @@ package database;
 
 import common.Quiz;
 import common.QuizPane;
-import common.Theme;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -15,6 +14,7 @@ import java.util.ArrayList;
 import org.h2.command.dml.Delete;
 import org.h2.tools.DeleteDbFiles;
 
+import javax.sql.rowset.CachedRowSet;
 import javax.swing.plaf.nimbus.State;
 
 public final class DatabaseManager {
@@ -27,10 +27,16 @@ public final class DatabaseManager {
     private Quiz quizContent;
 
     private DatabaseManager() {
-        DeleteDbFiles.execute("./","database", true);
+        // To reset database to template:
+        /*DeleteDbFiles.execute("./","database", true);
         try {
             initialiseDB();
         } catch (SQLException e) {
+            e.printStackTrace();
+        }*/
+        try {
+            refreshQuizContent(1);
+        } catch (SQLException e){
             e.printStackTrace();
         }
     }
@@ -46,7 +52,7 @@ public final class DatabaseManager {
                 "CREATE TABLE QUESTIONS(ID int auto_increment primary key, content varchar(255), THEMEID int, foreign key (THEMEID) references THEMES(ID))",
                 "CREATE TABLE ANSWERS(ID int auto_increment primary key, content varchar(255), correct bit default 0, QUESTIONID int, FOREIGN KEY (QUESTIONID) REFERENCES QUESTIONS(ID))",
                 "CREATE TABLE SCHOOLS(ID int auto_increment primary key, name varchar(255))",
-                "CREATE TABLE YEARS(ID int auto_increment primary key, year int, correctlyAnswered int default 0, totalAnswered int default 0, SCHOOLID int, FOREIGN KEY (SCHOOLID) REFERENCES SCHOOLS(ID))"
+                "CREATE TABLE YEARS(ID int auto_increment primary key, year int, correctlyAnswered int default 0, totalAnswered int default 0, SCHOOLID int, FOREIGN KEY (SCHOOLID) REFERENCES SCHOOLS(ID))",
         };
         executeList(initQueries);
 
@@ -86,9 +92,24 @@ public final class DatabaseManager {
                 "INSERT INTO YEARS VALUES (DEFAULT, 11, 0, 0, (select ID from SCHOOLS where ID=3))",
         };
         executeList(insertQueries);
+    }
 
-        //TODO this is temp, remove this
-        refreshQuizContent(1);
+    public void executeCommand(String cmd) throws SQLException{
+        Connection connection = getDBConnection();
+
+        try {
+            connection.setAutoCommit(false);
+            Statement statement = connection.createStatement();
+            statement.execute(cmd);
+            statement.close();
+            connection.commit();
+        } catch (SQLException e) {
+            System.out.println("Exception Message " + e.getLocalizedMessage());
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            connection.close();
+        }
     }
 
     private void executeList(String[] list) throws SQLException{

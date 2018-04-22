@@ -3,6 +3,7 @@ package UI;
 import common.Quiz;
 import common.QuizPane;
 import database.DatabaseManager;
+import database.QuizStatisticRecorder;
 
 import javax.swing.*;
 import javax.xml.crypto.Data;
@@ -101,6 +102,7 @@ public class QuizPage {
     private void passQuestion() {
         quizContent.getCurrent().removeAnswer();
         nextQuestion();
+        QuizStatisticRecorder.addIncorrect();
     }
 
     /**
@@ -125,6 +127,7 @@ public class QuizPage {
             buttonNext.setEnabled(false);
         } else {
             FinishScreen.main();
+            QuizStatisticRecorder.writeToDB();
             frame.dispatchEvent(new WindowEvent(frame, WindowEvent.WINDOW_CLOSING));
         }
     }
@@ -132,10 +135,12 @@ public class QuizPage {
     private void verifyAnswer() {
         if(quizContent.getCurrent().isCorrect()) {
             JOptionPane.showMessageDialog(panelMain, "You chose the correct answer!", "Correct", JOptionPane.PLAIN_MESSAGE);
+            QuizStatisticRecorder.addCorrect();
         } else {
             JOptionPane.showMessageDialog(panelMain, "Incorrect answer. The right answer was Option " +
                     quizContent.getCurrent().getCorrectID() +
                     ", \"" + quizContent.getCurrent().getAnswers()[quizContent.getCurrent().getCorrectID()] + "\"");
+            QuizStatisticRecorder.addIncorrect();
         }
         buttonNext.setEnabled(true);
         buttonSelectAnswer.setEnabled(false);
