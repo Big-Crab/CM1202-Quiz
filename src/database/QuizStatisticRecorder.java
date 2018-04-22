@@ -38,6 +38,7 @@ public class QuizStatisticRecorder {
         addIncorrect();
     }
 
+    // The same as adding a blank value
     public static void addIncorrect() {
         numAnswered++;
     }

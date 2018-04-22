@@ -4,9 +4,6 @@ import database.DatabaseManager;
 import database.QuizStatisticRecorder;
 
 import javax.swing.*;
-import javax.xml.crypto.Data;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
 import java.sql.SQLException;
 
@@ -20,6 +17,10 @@ public class StartScreen {
     private JPanel panelLeft;
     private static JFrame frame;
 
+    public static int adminPIN;
+
+    public int selectedTheme;
+
     public static void main(String[] args) {
         frame = new JFrame("Start Screen");
         frame.setContentPane(new StartScreen().mainPanel);
@@ -32,12 +33,9 @@ public class StartScreen {
     }
 
     public StartScreen() {
-        buttonConfirm.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                goToQuiz();
-            }
-        });
+        buttonConfirm.addActionListener(e -> goToQuiz());
+
+        setThemeButton.addActionListener(e -> displayThemeSelection());
 
         try {
             schoolBox.addItem("None");
@@ -67,14 +65,36 @@ public class StartScreen {
         }
         // enable below if it's necessary to select BOTH a school & a year
         //yearGroupBox.addActionListener(e -> buttonConfirm.setEnabled(schoolBox.getSelectedIndex() > 0 && yearGroupBox.getSelectedIndex() > 0));
+
+        showPinCreationDialog();
+    }
+
+    public void displayThemeSelection() {
+        // show PIN
+        // then if PIN is accepted, goto theme selection dialogue with dropdown
     }
 
     public void goToQuiz() {
+        // We do not need to add +1 to the index, despite SQL starting at 1, because we have the "None" option, which buffers the others up by 1
         QuizStatisticRecorder.setSelectedSchoolID(schoolBox.getSelectedIndex());
+        QuizStatisticRecorder.setSelectedSchoolYear(yearGroupBox.getSelectedIndex());
+        QuizStatisticRecorder.setSelectedTheme(selectedTheme);
 
         // Create the quiz window and then...
         QuizPage.main();
         // -close the current one
         frame.dispatchEvent(new WindowEvent(frame, WindowEvent.WINDOW_CLOSING));
+    }
+
+    private void showPinCreationDialog() {
+        PINCreationDialog dialog = new PINCreationDialog();
+        dialog.pack();
+        dialog.setVisible(true);
+    }
+
+    private boolean showPinDialog() {
+        PINDialog dialog = new PINDialog();
+        dialog.pack();
+        return dialog.showDialog();
     }
 }

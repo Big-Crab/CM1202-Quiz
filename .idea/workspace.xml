@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3b8aeff-7f9a-41eb-ac9e-c1c18734ba69" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/QuizPage$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/UI/QuizPage.java" afterPath="$PROJECT_DIR$/src/UI/QuizPage.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/UI/PINCreationDialog.form" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/UI/PINCreationDialog.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/UI/PINDialog.form" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/UI/PINDialog.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/database.mv.db" afterPath="$PROJECT_DIR$/database.mv.db" />
+      <change beforePath="$PROJECT_DIR$/database.trace.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/StartScreen$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/StartScreen.class" afterPath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/StartScreen.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/common/Theme.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/database/QuizStatisticRecorder.class" afterPath="$PROJECT_DIR$/out/production/CM1202 DQS/database/QuizStatisticRecorder.class" />
       <change beforePath="$PROJECT_DIR$/src/UI/StartScreen.java" afterPath="$PROJECT_DIR$/src/UI/StartScreen.java" />
-      <change beforePath="$PROJECT_DIR$/src/database/DatabaseManager.java" afterPath="$PROJECT_DIR$/src/database/DatabaseManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/common/Theme.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/database/QuizStatisticRecorder.java" afterPath="$PROJECT_DIR$/src/database/QuizStatisticRecorder.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,7 +36,7 @@
       <file leaf-file-name="DatabaseManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/database/DatabaseManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="488">
               <caret line="253" column="0" lean-forward="false" selection-start-line="253" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -41,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuizStatisticRecorder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuizStatisticRecorder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/database/QuizStatisticRecorder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="71" lean-forward="false" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
+            <state relative-caret-position="369">
+              <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
               <folding>
                 <element signature="e#320#321#0" expanded="true" />
                 <element signature="e#356#357#0" expanded="true" />
@@ -55,31 +64,71 @@
                 <element signature="e#571#572#0" expanded="true" />
                 <element signature="e#761#762#0" expanded="true" />
                 <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#1083#1084#0" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
+                <element signature="e#1123#1124#0" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StartScreen.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StartScreen.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="72" column="78" lean-forward="false" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
+            <state relative-caret-position="114">
+              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1242#1243#0" expanded="true" />
-                <element signature="e#1284#1285#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StartScreen.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.form">
+      <file leaf-file-name="PINDialog.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/PINDialog.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PINDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/PINDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="607">
+              <caret line="72" column="5" lean-forward="false" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+              <folding>
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#1519#1520#0" expanded="true" />
+                <element signature="e#1561#1562#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PINCreationDialog.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/PINCreationDialog.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PINCreationDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/PINCreationDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="38" column="130" lean-forward="false" selection-start-line="38" selection-start-column="130" selection-end-line="38" selection-end-column="130" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -92,13 +141,6 @@
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuizPage.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/QuizPage.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -121,13 +163,6 @@
                 <element signature="e#475#476#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FinishScreen.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/FinishScreen.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -181,8 +216,13 @@
         <option value="$PROJECT_DIR$/src/UI/StartScreen.form" />
         <option value="$PROJECT_DIR$/src/UI/QuizPage.java" />
         <option value="$PROJECT_DIR$/src/database/DatabaseManager.java" />
-        <option value="$PROJECT_DIR$/src/UI/StartScreen.java" />
+        <option value="$PROJECT_DIR$/src/common/Theme.java" />
+        <option value="$PROJECT_DIR$/src/UI/PINDialog.form" />
+        <option value="$PROJECT_DIR$/src/UI/PINCreationDialog.form" />
+        <option value="$PROJECT_DIR$/src/UI/PINCreationDialog.java" />
         <option value="$PROJECT_DIR$/src/database/QuizStatisticRecorder.java" />
+        <option value="$PROJECT_DIR$/src/UI/PINDialog.java" />
+        <option value="$PROJECT_DIR$/src/UI/StartScreen.java" />
       </list>
     </option>
   </component>
@@ -240,20 +280,6 @@
             </path>
             <path>
               <item name="DQS-UI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CM1202 DQS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="QuizPage" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="DQS-UI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CM1202 DQS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="StartScreen" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="DQS-UI" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -298,6 +324,25 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CM1202 DQS" />
+      <envs />
+    </configuration>
+    <configuration name="PINDialog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="UI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="UI.PINDialog" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -399,14 +444,16 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.StartScreen" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PINDialog" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Application.StartScreen" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PINDialog" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -432,15 +479,15 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1611877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20416667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -448,7 +495,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3902439" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -456,7 +503,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -477,50 +524,18 @@
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/UI/PINCreationDialog.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/UI/FinishScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/DatabaseManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" column="213" lean-forward="false" selection-start-line="26" selection-start-column="213" selection-end-line="26" selection-end-column="213" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#refreshQuizContent#0;class#DatabaseManager#0" expanded="false" />
-            <element signature="e#9081#9082#0" expanded="true" />
-            <element signature="e#9115#9116#0" expanded="true" />
-            <element signature="method#getDBConnection#0;class#DatabaseManager#0" expanded="false" />
-            <element signature="e#9652#9692#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/FinishScreen.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/QuizPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2074">
-          <caret line="122" column="38" lean-forward="false" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/QuizPage.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -575,8 +590,6 @@
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -665,8 +678,6 @@
           <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -698,8 +709,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -716,8 +725,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -734,8 +741,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -752,8 +757,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -770,8 +773,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -790,14 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="1147" column="0" lean-forward="false" selection-start-line="1147" selection-start-column="0" selection-end-line="1147" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/Theme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,7 +863,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/database/DatabaseManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="488">
           <caret line="253" column="0" lean-forward="false" selection-start-line="253" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -883,22 +876,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.java">
+    <entry file="file://$PROJECT_DIR$/src/common/Theme.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="72" column="78" lean-forward="false" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/database/QuizStatisticRecorder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="71" lean-forward="false" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
+        <state relative-caret-position="369">
+          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
           <folding>
             <element signature="e#320#321#0" expanded="true" />
             <element signature="e#356#357#0" expanded="true" />
@@ -908,8 +897,59 @@
             <element signature="e#571#572#0" expanded="true" />
             <element signature="e#761#762#0" expanded="true" />
             <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/PINCreationDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="38" column="130" lean-forward="false" selection-start-line="38" selection-start-column="130" selection-end-line="38" selection-end-column="130" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/PINCreationDialog.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/PINDialog.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/PINDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="72" column="5" lean-forward="false" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#1519#1520#0" expanded="true" />
+            <element signature="e#1561#1562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
