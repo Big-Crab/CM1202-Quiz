@@ -11,6 +11,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
+import java.sql.SQLException;
 
 public class QuizPage {
     private JTextPane paneQuestionText;
@@ -36,6 +37,8 @@ public class QuizPage {
     // Activated when question is answered
     private JButton buttonNext;
     public JPanel panelMain;
+    private JButton buttonStats;
+    private JButton buttonAdmin;
 
     // Load all content from this,
     // and use it to change the statuses of answers etc.
@@ -45,7 +48,9 @@ public class QuizPage {
 
     private static JFrame frame;
 
-    public static void main() {
+    private int selectedTheme = -1;
+
+    public static void main(int selectedTheme) {
         QuizPage page = new QuizPage();
         frame = new JFrame("Quiz Page");
         frame.setContentPane(page.panelMain);
@@ -56,7 +61,7 @@ public class QuizPage {
         frame.revalidate();
         frame.repaint();
 
-        page.Start();
+        page.Start(selectedTheme);
     }
 
     // Not much point in a constructor if we can't edit the components yet.
@@ -68,12 +73,17 @@ public class QuizPage {
      * Run when initially loading this UI screen from the start screen.
      * Entry point for this UI.
      */
-    public void Start() {
-        //copy the control buttons
+    public void Start(int selectedTheme) {
+        this.selectedTheme = selectedTheme;
 
-
-        DatabaseManager.getDBM();
-        quizContent = DatabaseManager.getDBM().getQuizContent();
+        DatabaseManager dbm = DatabaseManager.getDBM();
+        try {
+            // TODO: Get theme here
+            dbm.refreshQuizContent(selectedTheme);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        quizContent = dbm.getQuizContent();
 
         //load 1st question
         loadContentToUI();
@@ -91,6 +101,8 @@ public class QuizPage {
 
         generateAnswerList();
         paneQuestionText.setText(quizContent.getCurrent().getQuestion());
+        quizProgress.setText("Total: " + QuizStatisticRecorder.getTotal());
+        quizScore.setText("Correct: " + QuizStatisticRecorder.getCorrect());
     }
 
     /**
@@ -100,9 +112,10 @@ public class QuizPage {
      * pass it.
      */
     private void passQuestion() {
+        QuizStatisticRecorder.addIncorrect();
         quizContent.getCurrent().removeAnswer();
         nextQuestion();
-        QuizStatisticRecorder.addIncorrect();
+        System.out.println("Added incorrect; now at " + QuizStatisticRecorder.getTotal());
     }
 
     /**
@@ -138,7 +151,7 @@ public class QuizPage {
             QuizStatisticRecorder.addCorrect();
         } else {
             JOptionPane.showMessageDialog(panelMain, "Incorrect answer. The right answer was Option " +
-                    quizContent.getCurrent().getCorrectID() +
+                    (1 + quizContent.getCurrent().getCorrectID()) +
                     ", \"" + quizContent.getCurrent().getAnswers()[quizContent.getCurrent().getCorrectID()] + "\"");
             QuizStatisticRecorder.addIncorrect();
         }
@@ -159,7 +172,7 @@ public class QuizPage {
         ButtonGroup answerGroup = new ButtonGroup();
         int i = 0;
         for (String answer : answers) {
-            JRadioButton button = new JRadioButton(i + ". " + answer);
+            JRadioButton button = new JRadioButton((i+1) + ". " + answer);
             button.setActionCommand(String.valueOf(i));
             answerGroup.add(button);
             final byte choiceID = (byte) i;

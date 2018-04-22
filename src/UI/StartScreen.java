@@ -17,9 +17,10 @@ public class StartScreen {
     private JPanel panelLeft;
     private static JFrame frame;
 
-    public static int adminPIN;
+    public static String adminPIN = null;
 
-    public int selectedTheme;
+    private boolean themeValid = false;
+    public static int selectedTheme = 1;
 
     public static void main(String[] args) {
         frame = new JFrame("Start Screen");
@@ -56,8 +57,11 @@ public class StartScreen {
                     exc.printStackTrace();
                 }
 
-                // enable below if it's necessary to select school & year
-                //buttonConfirm.setEnabled(schoolBox.getSelectedIndex() > 0 && yearGroupBox.getSelectedIndex() > 0);
+                validateScreen();
+            });
+
+            yearGroupBox.addActionListener(e -> {
+                    validateScreen();
             });
 
         } catch (SQLException sqlException) {
@@ -66,12 +70,29 @@ public class StartScreen {
         // enable below if it's necessary to select BOTH a school & a year
         //yearGroupBox.addActionListener(e -> buttonConfirm.setEnabled(schoolBox.getSelectedIndex() > 0 && yearGroupBox.getSelectedIndex() > 0));
 
-        showPinCreationDialog();
+        // If the pin is not yet set
+        if(adminPIN == null) {
+            showPinCreationDialog();
+        }
     }
 
     public void displayThemeSelection() {
         // show PIN
         // then if PIN is accepted, goto theme selection dialogue with dropdown
+        int result = -1;
+        while(result < 1) {
+            result = showPinDialog();
+        }
+        // If cancel button is hit, the rest is ignored.
+        if(result == 1) {
+            ThemeDialog dialog = new ThemeDialog();
+            dialog.pack();
+            selectedTheme = dialog.showDialog();
+            System.out.println("Selected Theme: " + selectedTheme);
+        }
+
+        //Validate the theme
+        validateTheme();
     }
 
     public void goToQuiz() {
@@ -85,9 +106,38 @@ public class StartScreen {
         QuizStatisticRecorder.setSelectedTheme(selectedTheme);
 
         // Create the quiz window and then...
-        QuizPage.main();
+        QuizPage.main(selectedTheme);
         // -close the current one
         frame.dispatchEvent(new WindowEvent(frame, WindowEvent.WINDOW_CLOSING));
+    }
+
+    private void validateScreen() {
+        validateTheme();
+
+        buttonConfirm.setEnabled(
+                ((schoolBox.getSelectedIndex() > 0 && yearGroupBox.getSelectedIndex() > 0) || (schoolBox.getSelectedIndex() == 0 && yearGroupBox.getSelectedIndex() == 0))
+                && themeValid
+        );
+    }
+
+    private void validateTheme() {
+        try {
+            DatabaseManager dbm = DatabaseManager.getDBM();
+            try {
+                dbm.refreshQuizContent(selectedTheme);
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+            themeValid = dbm.getQuizContent().getNumberOfQuestions() > 0;
+            buttonConfirm.setEnabled(themeValid);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        /*
+         try {
+        } catch (NullPointerException e) {
+            System.out.println("Theme not valid.");
+        }*/
     }
 
     private void showPinCreationDialog() {
@@ -96,7 +146,7 @@ public class StartScreen {
         dialog.setVisible(true);
     }
 
-    private boolean showPinDialog() {
+    private int showPinDialog() {
         PINDialog dialog = new PINDialog();
         dialog.pack();
         return dialog.showDialog();

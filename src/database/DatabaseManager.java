@@ -11,6 +11,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
+import common.Theme;
 import org.h2.command.dml.Delete;
 import org.h2.tools.DeleteDbFiles;
 
@@ -273,6 +274,31 @@ public final class DatabaseManager {
             statementYears.close();
             connection.commit();
             return iYears.toArray(new Integer[iYears.size()]);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        } finally {
+            connection.close();
+        }
+    }
+
+    public Theme[] getThemes() throws SQLException{
+        ArrayList<Theme> themes = new ArrayList<>();
+        Connection connection = null;
+        try {
+            connection = getDBConnection();
+            Statement statementThemes = connection.createStatement();
+            ResultSet results = statementThemes.executeQuery("SELECT * FROM THEMES");
+            System.out.println("Themes acquired from DB.");
+            while(results.next()) {
+                themes.add(new Theme(
+                        results.getInt("id" ),
+                        results.getString("THEMENAME"
+                        )));
+            }
+            statementThemes.close();
+            connection.commit();
+            return themes.toArray(new Theme[themes.size()]);
         } catch (SQLException e) {
             e.printStackTrace();
             return null;

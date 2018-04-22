@@ -50,7 +50,7 @@ public class PINCreationDialog extends JDialog {
 
     private void onOK() {
         // add your code here
-        StartScreen.adminPIN = Integer.parseInt(PINEntry.getText());
+        StartScreen.adminPIN = PINEntry.getText();
         dispose();
     }
 }

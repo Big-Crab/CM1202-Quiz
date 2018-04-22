@@ -12,7 +12,7 @@ public class PINDialog extends JDialog {
     private JButton buttonOK;
     private JButton buttonCancel;
     private JFormattedTextField PINEntry;
-    public boolean pinAccepted = false;
+    private int pinAccepted = -1;
 
     public PINDialog() {
         setContentPane(contentPane);
@@ -56,18 +56,18 @@ public class PINDialog extends JDialog {
     }
 
     private void onOK() {
-        // add your code here
-        pinAccepted = Integer.parseInt(PINEntry.getText()) == StartScreen.adminPIN;
+        // 1 = Accepted, 0 = Not Accepted, 2 = Cancelled
+        pinAccepted = PINEntry.getText().equals(StartScreen.adminPIN) ? 1 : 0;
         setVisible(false);
         dispose();
     }
 
     private void onCancel() {
-        // add your code here if necessary
+        pinAccepted = 2;
         dispose();
     }
 
-    public boolean showDialog() {
+    public int showDialog() {
         setVisible(true);
         return pinAccepted;
     }

@@ -47,6 +47,14 @@ public class QuizStatisticRecorder {
         numAnswered++;
     }
 
+    public static int getTotal() {
+        return numAnswered;
+    }
+
+    public static int getCorrect() {
+        return numCorrect;
+    }
+
     public static void writeToDB() {
         //TODO
         // Should get school ID and year and write the answers/corrects to DB

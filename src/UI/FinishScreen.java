@@ -1,5 +1,7 @@
 package UI;
 
+import database.QuizStatisticRecorder;
+
 import javax.swing.*;
 
 public class FinishScreen {
@@ -8,6 +10,8 @@ public class FinishScreen {
     private JTextPane textPaneResults;
     private JButton buttonRestart;
     private JPanel panelControls;
+    private JButton buttonStats;
+    private JButton buttonAdmin;
 
     public static void main() {
         FinishScreen screen = new FinishScreen();
@@ -24,6 +28,13 @@ public class FinishScreen {
     }
 
     private void Start() {
+        int correct = QuizStatisticRecorder.getCorrect();
+        int total = QuizStatisticRecorder.getTotal();
+        textPaneResults.setText("Quiz complete! You answered " + correct + " correctly, out of " + total + " total questions.");
 
+        buttonRestart.addActionListener(e -> {
+            StartScreen.main(null);
+            frame.dispose();
+        });
     }
 }
