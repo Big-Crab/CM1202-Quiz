@@ -28,17 +28,12 @@ public class QuizPage {
     // Load next question, leave current as unanswered
     private JButton buttonPass;
 
-    // Contains stats and admin control buttons
-    private JPanel panelControls;
-
     // Confirms answer, and highlights feedback
     private JButton buttonSelectAnswer;
 
     // Activated when question is answered
     private JButton buttonNext;
     public JPanel panelMain;
-    private JButton buttonStats;
-    private JButton buttonAdmin;
 
     // Load all content from this,
     // and use it to change the statuses of answers etc.
@@ -199,12 +194,4 @@ public class QuizPage {
         frame.pack();
         frame.setVisible(true);
     }
-
-    /*private void createUIComponents() {
-        paneAnswers = new JPanel();
-        buttonSelectAnswer = new JButton();
-        paneQuestionText = new JTextPane();
-        buttonNext = new JButton();
-        Start();
-    }*/
 }

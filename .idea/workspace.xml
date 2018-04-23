@@ -2,25 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3b8aeff-7f9a-41eb-ac9e-c1c18734ba69" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/UI/ThemeDialog.form" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/UI/ThemeDialog.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/common/Theme.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/UI/StatsDialog.form" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/UI/StatsDialog.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/database.mv.db" afterPath="$PROJECT_DIR$/database.mv.db" />
       <change beforePath="$PROJECT_DIR$/database.trace.db" afterPath="$PROJECT_DIR$/database.trace.db" />
-      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/FinishScreen.class" afterPath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/FinishScreen.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/PINCreationDialog.class" afterPath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/PINCreationDialog.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/PINDialog.class" afterPath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/PINDialog.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/QuizPage.class" afterPath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/QuizPage.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/StartScreen.class" afterPath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/StartScreen.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/database/QuizStatisticRecorder.class" afterPath="$PROJECT_DIR$/out/production/CM1202 DQS/database/QuizStatisticRecorder.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/UI/StartScreen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CM1202 DQS/database/DatabaseManager.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/UI/FinishScreen.form" afterPath="$PROJECT_DIR$/src/UI/FinishScreen.form" />
       <change beforePath="$PROJECT_DIR$/src/UI/FinishScreen.java" afterPath="$PROJECT_DIR$/src/UI/FinishScreen.java" />
-      <change beforePath="$PROJECT_DIR$/src/UI/PINCreationDialog.form" afterPath="$PROJECT_DIR$/src/UI/PINCreationDialog.form" />
-      <change beforePath="$PROJECT_DIR$/src/UI/PINCreationDialog.java" afterPath="$PROJECT_DIR$/src/UI/PINCreationDialog.java" />
-      <change beforePath="$PROJECT_DIR$/src/UI/PINDialog.java" afterPath="$PROJECT_DIR$/src/UI/PINDialog.java" />
       <change beforePath="$PROJECT_DIR$/src/UI/QuizPage.form" afterPath="$PROJECT_DIR$/src/UI/QuizPage.form" />
       <change beforePath="$PROJECT_DIR$/src/UI/QuizPage.java" afterPath="$PROJECT_DIR$/src/UI/QuizPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/UI/StartScreen.form" afterPath="$PROJECT_DIR$/src/UI/StartScreen.form" />
       <change beforePath="$PROJECT_DIR$/src/UI/StartScreen.java" afterPath="$PROJECT_DIR$/src/UI/StartScreen.java" />
       <change beforePath="$PROJECT_DIR$/src/database/DatabaseManager.java" afterPath="$PROJECT_DIR$/src/database/DatabaseManager.java" />
       <change beforePath="$PROJECT_DIR$/src/database/QuizStatisticRecorder.java" afterPath="$PROJECT_DIR$/src/database/QuizStatisticRecorder.java" />
@@ -41,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QuizStatisticRecorder.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QuizStatisticRecorder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/database/QuizStatisticRecorder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="75" column="30" lean-forward="true" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+            <state relative-caret-position="689">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#408#409#0" expanded="true" />
@@ -67,11 +60,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StartScreen.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StartScreen.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StartScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="62" column="46" lean-forward="false" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
+            <state relative-caret-position="533">
+              <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,11 +79,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="FinishScreen.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/FinishScreen.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="DatabaseManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/database/DatabaseManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="298" column="36" lean-forward="true" selection-start-line="298" selection-start-column="36" selection-end-line="298" selection-end-column="36" />
+            <state relative-caret-position="176">
+              <caret line="325" column="118" lean-forward="false" selection-start-line="325" selection-start-column="118" selection-end-line="325" selection-end-column="118" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#refreshQuizContent#0;class#DatabaseManager#0" expanded="false" />
@@ -96,8 +103,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThemeDialog.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/ThemeDialog.form">
+      <file leaf-file-name="QuizPage.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UI/QuizPage.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
           </provider>
@@ -116,21 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PINDialog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/PINDialog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="69" column="24" lean-forward="false" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FinishScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UI/FinishScreen.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="397">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,22 +138,10 @@
       <file leaf-file-name="QuizPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UI/QuizPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="153" column="65" lean-forward="false" selection-start-line="153" selection-start-column="65" selection-end-line="153" selection-end-column="65" />
+            <state relative-caret-position="504">
+              <caret line="195" column="5" lean-forward="false" selection-start-line="195" selection-start-column="5" selection-end-line="195" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Quiz.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/Quiz.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#475#476#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -214,21 +199,23 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/common/QuizPane.java" />
         <option value="$PROJECT_DIR$/src/common/Quiz.java" />
-        <option value="$PROJECT_DIR$/src/UI/StartScreen.form" />
         <option value="$PROJECT_DIR$/src/UI/PINDialog.form" />
-        <option value="$PROJECT_DIR$/src/database/QuizStatisticRecorder.java" />
         <option value="$PROJECT_DIR$/src/UI/FinishScreen.java" />
-        <option value="$PROJECT_DIR$/src/UI/FinishScreen.form" />
-        <option value="$PROJECT_DIR$/src/UI/QuizPage.form" />
         <option value="$PROJECT_DIR$/src/UI/PINCreationDialog.form" />
         <option value="$PROJECT_DIR$/src/UI/PINCreationDialog.java" />
         <option value="$PROJECT_DIR$/src/UI/PINDialog.java" />
-        <option value="$PROJECT_DIR$/src/database/DatabaseManager.java" />
         <option value="$PROJECT_DIR$/src/common/Theme.java" />
         <option value="$PROJECT_DIR$/src/UI/ThemeDialog.java" />
         <option value="$PROJECT_DIR$/src/UI/ThemeDialog.form" />
+        <option value="$PROJECT_DIR$/src/UI/StatsDialog.form" />
+        <option value="$PROJECT_DIR$/src/UI/StatsDialog.java" />
         <option value="$PROJECT_DIR$/src/UI/QuizPage.java" />
+        <option value="$PROJECT_DIR$/src/UI/StartScreen.form" />
+        <option value="$PROJECT_DIR$/src/database/DatabaseManager.java" />
         <option value="$PROJECT_DIR$/src/UI/StartScreen.java" />
+        <option value="$PROJECT_DIR$/src/UI/FinishScreen.form" />
+        <option value="$PROJECT_DIR$/src/UI/QuizPage.form" />
+        <option value="$PROJECT_DIR$/src/database/QuizStatisticRecorder.java" />
       </list>
     </option>
   </component>
@@ -289,7 +276,28 @@
               <item name="CM1202 DQS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="ThemeDialog" type="e9f4de52:FormNode" />
+              <item name="FinishScreen" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="DQS-UI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CM1202 DQS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="QuizPage" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="DQS-UI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CM1202 DQS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="StartScreen" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="DQS-UI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CM1202 DQS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="StatsDialog" type="e9f4de52:FormNode" />
             </path>
             <path>
               <item name="DQS-UI" type="b2602c69:ProjectViewProjectNode" />
@@ -529,30 +537,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/common/Quiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#429#430#0" expanded="false" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="false" />
-            <element signature="e#873#874#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -761,27 +745,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/h2database/h2/1.4.197/h2-1.4.197.jar!/org/h2/message/DbException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/QuizPage.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/FinishScreen.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/PINDialog.form">
@@ -818,21 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/DatabaseManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="298" column="36" lean-forward="true" selection-start-line="298" selection-start-column="36" selection-end-line="298" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#refreshQuizContent#0;class#DatabaseManager#0" expanded="false" />
-            <element signature="e#9807#9808#0" expanded="true" />
-            <element signature="e#9841#9842#0" expanded="true" />
-            <element signature="method#getDBConnection#0;class#DatabaseManager#0" expanded="false" />
-            <element signature="e#10378#10418#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/Theme.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -856,6 +810,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/QuizPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding>
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/QuizPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="195" column="5" lean-forward="false" selection-start-line="195" selection-start-column="5" selection-end-line="195" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/StatsDialog.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/StatsDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/ThemeDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
@@ -867,10 +855,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/FinishScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/FinishScreen.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/DatabaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="325" column="118" lean-forward="false" selection-start-line="325" selection-start-column="118" selection-end-line="325" selection-end-column="118" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#refreshQuizContent#0;class#DatabaseManager#0" expanded="false" />
+            <element signature="e#9807#9808#0" expanded="true" />
+            <element signature="e#9841#9842#0" expanded="true" />
+            <element signature="method#getDBConnection#0;class#DatabaseManager#0" expanded="false" />
+            <element signature="e#10378#10418#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/QuizPage.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/database/QuizStatisticRecorder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="75" column="30" lean-forward="true" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+        <state relative-caret-position="689">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#408#409#0" expanded="true" />
@@ -887,47 +925,6 @@
             <element signature="e#1310#1311#0" expanded="true" />
             <element signature="e#1348#1349#0" expanded="true" />
             <element signature="e#1381#1382#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/QuizPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-          <folding>
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/FinishScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/QuizPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="153" column="65" lean-forward="false" selection-start-line="153" selection-start-column="65" selection-end-line="153" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/StartScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="62" column="46" lean-forward="false" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -306,4 +306,49 @@ public final class DatabaseManager {
             connection.close();
         }
     }
+
+    public String getStatsReadout() throws SQLException{
+        StringBuilder sb = new StringBuilder();
+        Connection connection = null;
+
+        try {
+            connection = getDBConnection();
+            Statement statementSchools = connection.createStatement();
+            ResultSet schools = statementSchools.executeQuery("SELECT * FROM SCHOOLS");
+            while(schools.next()) {
+
+                int sumCorrect = 0, sumTotal = 0;
+                sb.append(schools.getString("name"));
+                sb.append(": \n");
+
+                // Get years
+                Statement statementYears = connection.createStatement();
+                ResultSet years = statementYears.executeQuery("SELECT * FROM YEARS WHERE SCHOOLID="+schools.getInt("ID"));
+                while(years.next()) {
+                    sb.append("    Year ");
+                    sb.append(years.getInt("year"));
+                    sb.append(": ");
+                    sb.append(years.getInt("totalanswered"));
+                    sb.append(" total answered, ");
+                    sb.append(years.getInt("correctlyanswered"));
+                    sb.append(" correctly answered.\n");
+
+                    sumCorrect+=years.getInt("correctlyanswered");
+                    sumTotal+=years.getInt("totalanswered");
+                }
+                sb.append("------\n");
+                sb.append("Total: " + sumTotal + " answered, " + sumCorrect + " correct.");
+                sb.append("\n\n");
+            }
+            schools.close();
+            connection.commit();
+            return sb.toString();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        } finally {
+            connection.close();
+        }
+    }
 }

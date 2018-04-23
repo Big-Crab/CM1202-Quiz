@@ -56,11 +56,7 @@ public class QuizStatisticRecorder {
     }
 
     public static void writeToDB() {
-        //TODO
-        // Should get school ID and year and write the answers/corrects to DB
         if(selectedSchoolYear > 0 && selectedSchoolID > 0) {
-            //"INSERT INTO ANSWERS VALUES (DEFAULT, 'Option A', 0, (select ID from QUESTIONS where ID=1))",
-            //"CREATE TABLE YEARS(ID int auto_increment primary key, year int, correctlyAnswered int default 0, totalAnswered int default 0, SCHOOLID int, FOREIGN KEY (SCHOOLID) REFERENCES SCHOOLS(ID))",
             try {
                 DatabaseManager dbm = DatabaseManager.getDBM();
                 dbm.executeCommand("UPDATE YEARS SET correctlyAnswered=correctlyAnswered+"+numCorrect+", totalAnswered=totalAnswered+"+numAnswered+" WHERE year="+selectedSchoolYear+" AND "+"SCHOOLID="+selectedSchoolID);

@@ -9,9 +9,6 @@ public class FinishScreen {
     private JPanel panelMain;
     private JTextPane textPaneResults;
     private JButton buttonRestart;
-    private JPanel panelControls;
-    private JButton buttonStats;
-    private JButton buttonAdmin;
 
     public static void main() {
         FinishScreen screen = new FinishScreen();

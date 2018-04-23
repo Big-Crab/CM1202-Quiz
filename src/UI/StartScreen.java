@@ -15,6 +15,8 @@ public class StartScreen {
     private JPanel mainPanel;
     private JPanel panelControls;
     private JPanel panelLeft;
+    private JButton buttonStats;
+    private JButton buttonAdmin;
     private static JFrame frame;
 
     public static String adminPIN = null;
@@ -35,7 +37,7 @@ public class StartScreen {
 
     public StartScreen() {
         buttonConfirm.addActionListener(e -> goToQuiz());
-
+        buttonStats.addActionListener(e -> showStats());
         setThemeButton.addActionListener(e -> displayThemeSelection());
 
         try {
@@ -60,9 +62,7 @@ public class StartScreen {
                 validateScreen();
             });
 
-            yearGroupBox.addActionListener(e -> {
-                    validateScreen();
-            });
+            yearGroupBox.addActionListener(e -> validateScreen());
 
         } catch (SQLException sqlException) {
             sqlException.printStackTrace();
@@ -93,6 +93,23 @@ public class StartScreen {
 
         //Validate the theme
         validateTheme();
+    }
+
+    private void showStats() {
+        int result = -1;
+        while(result < 1) {
+            result = showPinDialog();
+        }
+        // If cancel button is hit, the rest is ignored.
+        if(result == 1) {
+            StatsDialog dialog = new StatsDialog();
+            dialog.pack();
+            dialog.setVisible(true);
+        }
+    }
+
+    private void showAdmin() {
+
     }
 
     public void goToQuiz() {
