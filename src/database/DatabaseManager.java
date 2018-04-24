@@ -140,13 +140,6 @@ public final class DatabaseManager {
         return DatabaseManager.instance;
     }
 
-    public void insertNewTheme(String title) {
-        Connection connection = getDBConnection();
-        PreparedStatement createPreparedStatement = null;
-        PreparedStatement insertPreparedStatement = null;
-        PreparedStatement selectPreparedStatement = null;
-    }
-
     /**
      * Provided a theme ID, will collate all of the Questions and Answers together into Panes, and then into a Quiz and return it.
      * @param themeSelected

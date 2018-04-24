@@ -1,5 +1,6 @@
 package UI;
 
+import UI.admin.MainAdmin;
 import database.DatabaseManager;
 import database.QuizStatisticRecorder;
 
@@ -38,6 +39,7 @@ public class StartScreen {
     public StartScreen() {
         buttonConfirm.addActionListener(e -> goToQuiz());
         buttonStats.addActionListener(e -> showStats());
+        buttonAdmin.addActionListener(e -> showAdmin());
         setThemeButton.addActionListener(e -> displayThemeSelection());
 
         try {
@@ -109,7 +111,18 @@ public class StartScreen {
     }
 
     private void showAdmin() {
-
+        int result = -1;
+        while(result < 1) {
+            result = showPinDialog();
+        }
+        // If cancel button is hit, the rest is ignored.
+        if(result == 1) {
+            MainAdmin screen = new MainAdmin();
+            frame = new JFrame("Admin");
+            frame.setContentPane(screen.panelMain);
+            frame.pack();
+            frame.setVisible(true);
+        }
     }
 
     public void goToQuiz() {
